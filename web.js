@@ -12,12 +12,12 @@ console.warn('hello % s','naik');
 console.warn('hello %% 5'+'naik');
 let a=10 
 let b=2;
-c=a+b;
+let c = a + b;
 console.log(c);
 let amount = 5;
 let price = 4.99;
-let  = amount * price; // Assign the calculated value to a variable named 'total'
-console.log(let); // Print the value of 'total'
+let total = amount * price; // Assign the calculated value to a variable named 'total'
+console.log(total); // Print the value of 'total'
 let s=10;
 let s1=20;
 let s2=40;
@@ -48,13 +48,29 @@ let person ={
     name: "naik",
     age:"12",
 };
-console.log(`person:${","}}`);
+console.log(`person: ${person.name}, ${person.age}`);
 console.log(person.age,
     person.name
 );
 //undefined
 let notassigned = null;
 console.log(notassigned);
+// string
+let single = 'how are you';
+let double ='sai naik'; 
+console.log(single.length);
+console.log(double.length);
+
+let int = 10;
+let float = 10.5;
+let negative = -20;
+console.log(int,float,negative);
+let sing = 'Wheres my bandit hat?';
+let doubl = "Wheres my bandit hat?";
+
+// => 21
+console.log(sing.length);
+
 
 
 
